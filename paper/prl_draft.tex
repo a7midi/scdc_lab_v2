@@ -1,0 +1,70 @@
+\documentclass[aps,prl,reprint,superscriptaddress]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Consistency-Driven Causal Graphs Exhibit Emergent Geometry and Discrete Transport Resonances}
+
+\author{(Authors omitted for review)}
+\affiliation{(Affiliations omitted for review)}
+
+\begin{abstract}
+We study a minimal ``computational universe'' in which a directed causal graph is annealed under a local consistency energy that penalizes incompatible motifs.
+Starting from random layered directed acyclic graphs, the annealing self-organizes a manifold-like causal structure with predominantly polynomial light-cone growth and an effective dimension $d_{\mathrm{eff}}\sim 2$--$3$.
+We then probe the resulting disordered causal medium by (i) measuring horizon-limited light-cone volumes and (ii) evolving simple local field rules after injecting compact defects.
+Near a narrow connectivity window ($p_{\mathrm f}\approx 0.12$ in our baseline ensemble), the horizon-limited volume spectrum concentrates onto a small set of discrete outcomes and exhibits a pronounced forbidden gap separating small, localized excitations from rapidly spreading ``shockwave'' events.
+Above this window ($p_{\mathrm f}\approx 0.14$), localized outcomes are strongly suppressed and propagation becomes predominantly explosive.
+These results support a picture in which consistency-generated causal geometry behaves like a disordered medium with blocked regions, conductive channels, and rare trapping structures that produce short-lived quasi-particle resonances without imposing continuum field equations.
+\end{abstract}
+
+\maketitle
+
+\paragraph{Model.}
+We generate directed graphs by placing $N$ vertices into $L$ layers and sampling forward edges with probability $p_{\mathrm f}$ plus skip edges ($p_{\mathrm{skip}2}$, $p_{\mathrm{skip}3}$).
+We then apply a simulated annealing ``genesis'' phase that rewires edges to reduce a local motif-based energy (the specific motif penalties are documented in the code release).
+This procedure is intentionally minimal: there are no continuum assumptions, no action functional on a manifold, and no tuned dispersion relation.
+After genesis we optionally inject a compact defect by selecting $k$ vertices and densifying their mutual connectivity (a ``knot'').
+
+To quantify emergent geometry we measure the discrete light cone $V_s(t)$: the number of vertices reachable from a source $s$ within $t$ directed steps.
+For polynomial growth $V_s(t)\propto t^{d}$ we estimate $d_{\mathrm{eff}}$ by fitting $\log V$ vs.\ $\log t$ on $t\in[1,8]$.
+We also compute geodesic focusing metrics (``lensing'') by comparing shortest-path distances to a target in the presence/absence of injected defects.
+
+\paragraph{Transport regimes and a discrete spectrum near criticality.}
+A key diagnostic is the \emph{horizon-limited} light-cone volume $V_s(t^\star)$ at a fixed horizon $t^\star$ (default $t^\star=8$ in this work).
+Across random sources, $V_s(t^\star)$ serves as an operational proxy for how a small perturbation can spread through the causal medium over a fixed proper time.
+We define three regimes using fixed thresholds:
+(i) \emph{dead} if $V_s(t^\star)<5$,
+(ii) \emph{localized} if $5\le V_s(t^\star)\le 20$,
+and (iii) \emph{shockwave} if $V_s(t^\star)>20$.
+
+In a reproducible batch of $5$ seeds at each density (with $8$ sources per seed; $N=500$, $L=100$, $p_{\mathrm{skip}2}=0.02$, $p_{\mathrm{skip}3}=0.005$), we find:
+at $p_{\mathrm f}=0.12$ the outcomes split into dead ($42.5\%$), localized ($17.5\%$), and shockwave ($40.0\%$) events, while at $p_{\mathrm f}=0.14$ localized outcomes drop to $5.0\%$ and the remaining events are evenly split between dead and shockwave.
+More strikingly, the \emph{set of observed} $V_s(t^\star)$ values at $p_{\mathrm f}=0.12$ is highly discrete and exhibits a large forbidden interval:
+in our sample, the largest consecutive gap is between $V=23$ and $V=77$ (no outcomes in $24\le V\le 76$).
+At $p_{\mathrm f}=0.14$ a different bimodality appears, with a gap between $V=10$ and $V=99$.
+The existence of such forbidden intervals is not expected from a naive ``random noise'' picture and motivates interpreting the critical regime as supporting a small number of transport resonances (quasi-particles) whose sizes are constrained by the causal geometry.
+
+\paragraph{Localized activity pockets from defect injection.}
+To complement purely topological transport probes, we evolve a binary field on the post-genesis graph using a simple deterministic threshold update rule.
+When a compact defect is injected, the dynamics frequently exhibits persistent \emph{activity pockets} detected by connected-component persistence in spacetime slices.
+These pockets are metastable: they persist across the simulated time window but need not survive indefinitely without a conserved topological charge.
+This distinction is important for interpretation: in our framework, ``glider-like'' visual signals correspond to energy confined to naturally occurring conductive channels in the graph, rather than to a hand-engineered rule designed to force a particle to move.
+
+\paragraph{Interpretation and outlook.}
+The combined evidence supports a ``semi-conductor'' picture of the consistency-generated vacuum: most regions are effectively insulating (dead), some channels are conductive (shockwave), and rare structures trap perturbations into localized resonances.
+This is qualitatively reminiscent of Anderson localization in disordered media~\cite{anderson1958}.
+Determining the order of the transition and extracting localization lengths will require finite-size scaling and additional null-model comparisons, both of which are straightforward within the released suite.
+
+Finally, independent symmetry experiments in this codebase compute finite braid-image groups in small-$N$ sectors; a representative $N=3$ configuration yields a non-Abelian group of order $26208$, matching $|\mathrm{GL}(2,\mathbb{F}_{13})|$.
+We view this as a promising indicator that non-trivial internal symmetries can emerge from local consistency constraints, but we treat any mapping to continuum gauge structure as a hypothesis for future work.
+
+\begin{acknowledgments}
+Code and reproducibility materials are included with this submission.
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{refs}
+
+\end{document}

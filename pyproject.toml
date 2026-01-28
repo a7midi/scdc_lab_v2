@@ -1,0 +1,13 @@
+[project]
+name = "scdc-lab"
+version = "0.1.0"
+description = "Consistency-first emergent spacetime/matter/geodesics suite"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "networkx",
+  "scipy",
+  "matplotlib",
+  "sympy",
+  "scikit-learn",
+]

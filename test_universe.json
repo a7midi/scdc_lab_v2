@@ -1,0 +1,300 @@
+{
+  "graph_type": "er",
+  "N": 60,
+  "E": 316,
+  "rule": "threshold",
+  "k": 2,
+  "scdc_loss": 0.0,
+  "spectral_gap_sym": 1.2299268768174936,
+  "light_cones": [
+    {
+      "source": 1,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 2,
+      "volumes": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -1.9160972208249418e-16
+    },
+    {
+      "source": 5,
+      "volumes": [
+        1,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 2.062063537426937e-16
+    },
+    {
+      "source": 3,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 4,
+      "volumes": [
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 9.421056873608993e-17
+    },
+    {
+      "source": 0,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    }
+  ],
+  "curvature": {
+    "mean_kappa_node": -1.0694444444444444,
+    "var_kappa_node": 1.8296682098765429,
+    "mean_rho": 0.3333333333333333,
+    "var_rho": 2.555555555555556
+  },
+  "geodesic_overlap": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "lensing": {
+    "n_paths": 25,
+    "mean_min_dist": 0.0,
+    "mean_mean_dist": 0.0
+  },
+  "pockets": {
+    "found": true,
+    "best_size": 60,
+    "time_series": [
+      {
+        "t": 0,
+        "n_active": 8,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 1,
+        "n_active": 32,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 2,
+        "n_active": 51,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 3,
+        "n_active": 59,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 4,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 5,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 6,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 7,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 8,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 9,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      },
+      {
+        "t": 10,
+        "n_active": 60,
+        "n_pockets": 1,
+        "largest_pocket": 60
+      }
+    ],
+    "knot_nodes": [
+      53,
+      25,
+      1,
+      56,
+      48,
+      8,
+      41,
+      27
+    ],
+    "matter_scc_size": 5,
+    "graph_with_matter_edges": 316
+  },
+  "genesis": {
+    "enabled": false,
+    "energy_mode": "motif",
+    "history": []
+  },
+  "artifacts": {
+    "spacetime_png": "/mnt/data/scdc_consistency_suite/test_universe_spacetime.png",
+    "geodesics_png": "/mnt/data/scdc_consistency_suite/test_universe_geodesics.png"
+  }
+}
