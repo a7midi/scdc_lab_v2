@@ -1,0 +1,1232 @@
+{
+  "graph_type": "layered",
+  "N": 500,
+  "E": 1276,
+  "rule": "threshold",
+  "k": 2,
+  "scdc_loss": 0.0,
+  "spectral_gap_sym": 0.1460020477547994,
+  "light_cones": [
+    {
+      "source": 116,
+      "volumes": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.5414505526393265,
+      "r2_exp": 0.3749999999999991,
+      "eff_dim": 0.12601791243263177
+    },
+    {
+      "source": 430,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 395,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 89,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 88,
+      "volumes": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -2.7438141225855647e-16
+    },
+    {
+      "source": 41,
+      "volumes": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        7,
+        7,
+        7
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.8408241618950532,
+      "r2_exp": 0.676535269777709,
+      "eff_dim": 0.5883961845159434
+    },
+    {
+      "source": 288,
+      "volumes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.7756635420568523,
+      "r2_exp": 0.6020380341946723,
+      "eff_dim": 0.2811448111338777
+    },
+    {
+      "source": 396,
+      "volumes": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -4.0835119587245763e-16
+    }
+  ],
+  "curvature": {
+    "mean_kappa_node": -0.30275537634408606,
+    "var_kappa_node": 0.6662636892632097,
+    "mean_rho": -0.21169354838709678,
+    "var_rho": 0.7394600351196671
+  },
+  "geodesic_overlap": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "lensing": {
+    "n_paths": 25,
+    "mean_min_dist": 0.16,
+    "mean_mean_dist": 0.6088742368742368
+  },
+  "pockets": {
+    "found": true,
+    "best_size": 87,
+    "time_series": [
+      {
+        "t": 0,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 1,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 2,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 3,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 4,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 5,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 6,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 7,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 8,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 9,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 10,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 11,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 12,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 13,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 14,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 15,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 16,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 17,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 18,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 19,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 20,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 21,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 22,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 23,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 24,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 25,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 26,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 27,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 28,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 29,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 30,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 31,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 32,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 33,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 34,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 35,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 36,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 37,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 38,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 39,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 40,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 41,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 42,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 43,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 44,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 45,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 46,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 47,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 48,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 49,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 50,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 51,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 52,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 53,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 54,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 55,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 56,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 57,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 58,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 59,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 60,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 61,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 62,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 63,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 64,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 65,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 66,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 67,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 68,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 69,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 70,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 71,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 72,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 73,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 74,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 75,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 76,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 77,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 78,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 79,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 80,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 81,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 82,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 83,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 84,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 85,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 86,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 87,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 88,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 89,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 90,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 91,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 92,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 93,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 94,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 95,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 96,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 97,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 98,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 99,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 100,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 101,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 102,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 103,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 104,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 105,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 106,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 107,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 108,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 109,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 110,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 111,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 112,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 113,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 114,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 115,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 116,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 117,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 118,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 119,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      },
+      {
+        "t": 120,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 87
+      }
+    ],
+    "knot_nodes": [
+      390,
+      389,
+      87,
+      213,
+      114,
+      236,
+      41,
+      131,
+      163,
+      306,
+      343,
+      86,
+      16,
+      56,
+      365,
+      423,
+      19,
+      79,
+      284,
+      46
+    ],
+    "matter_scc_size": 64,
+    "graph_with_matter_edges": 1276
+  },
+  "genesis": {
+    "enabled": true,
+    "energy_mode": "motif",
+    "history": [
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -18.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -17.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -16.0,
+      -14.0,
+      -14.0,
+      -14.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      "..."
+    ]
+  },
+  "artifacts": {
+    "spacetime_png": "runs/pf0.06_seed3_spacetime.png",
+    "geodesics_png": "runs/pf0.06_seed3_geodesics.png"
+  }
+}

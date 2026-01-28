@@ -1,0 +1,1232 @@
+{
+  "graph_type": "layered",
+  "N": 500,
+  "E": 1451,
+  "rule": "threshold",
+  "k": 2,
+  "scdc_loss": 0.0,
+  "spectral_gap_sym": 0.10516949224207983,
+  "light_cones": [
+    {
+      "source": 340,
+      "volumes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        44,
+        65
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "exponential",
+      "r2_poly": 0.6648236813927668,
+      "r2_exp": 0.8041593555157542,
+      "eff_dim": null
+    },
+    {
+      "source": 267,
+      "volumes": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -4.0835119587245763e-16
+    },
+    {
+      "source": 197,
+      "volumes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        8,
+        8
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.9540021034689715,
+      "r2_exp": 0.8747465851466821,
+      "eff_dim": 0.7851051345732917
+    },
+    {
+      "source": 9,
+      "volumes": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -2.7438141225855647e-16
+    },
+    {
+      "source": 217,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 337,
+      "volumes": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        43,
+        64,
+        76
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "exponential",
+      "r2_poly": 0.7780975037511058,
+      "r2_exp": 0.8790485963961345,
+      "eff_dim": null
+    },
+    {
+      "source": 280,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 121,
+      "volumes": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        18,
+        23,
+        26,
+        31
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.9908928275705831,
+      "r2_exp": 0.9177542950515718,
+      "eff_dim": 1.4766073501635195
+    }
+  ],
+  "curvature": {
+    "mean_kappa_node": 1.7998039215686277,
+    "var_kappa_node": 58.07546074586698,
+    "mean_rho": 0.12,
+    "var_rho": 3.8326588235294126
+  },
+  "geodesic_overlap": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "lensing": {
+    "n_paths": 25,
+    "mean_min_dist": 0.0,
+    "mean_mean_dist": 0.4831111111111111
+  },
+  "pockets": {
+    "found": true,
+    "best_size": 235,
+    "time_series": [
+      {
+        "t": 0,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 1,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 2,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 3,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 4,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 5,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 6,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 7,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 8,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 9,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 10,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 11,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 12,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 13,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 14,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 15,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 16,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 17,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 18,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 19,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 20,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 21,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 22,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 23,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 24,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 25,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 26,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 27,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 28,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 29,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 30,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 31,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 32,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 33,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 34,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 35,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 36,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 37,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 38,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 39,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 40,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 41,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 42,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 43,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 44,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 45,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 46,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 47,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 48,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 49,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 50,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 51,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 52,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 53,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 54,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 55,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 56,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 57,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 58,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 59,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 60,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 61,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 62,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 63,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 64,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 65,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 66,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 67,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 68,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 69,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 70,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 71,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 72,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 73,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 74,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 75,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 76,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 77,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 78,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 79,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 80,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 81,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 82,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 83,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 84,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 85,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 86,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 87,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 88,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 89,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 90,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 91,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 92,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 93,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 94,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 95,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 96,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 97,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 98,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 99,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 100,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 101,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 102,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 103,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 104,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 105,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 106,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 107,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 108,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 109,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 110,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 111,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 112,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 113,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 114,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 115,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 116,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 117,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 118,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 119,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      },
+      {
+        "t": 120,
+        "n_active": 21,
+        "n_pockets": 1,
+        "largest_pocket": 235
+      }
+    ],
+    "knot_nodes": [
+      478,
+      388,
+      250,
+      22,
+      64,
+      24,
+      188,
+      322,
+      136,
+      139,
+      26,
+      10,
+      74,
+      0,
+      306,
+      227,
+      499,
+      201,
+      281,
+      391
+    ],
+    "matter_scc_size": 135,
+    "graph_with_matter_edges": 1451
+  },
+  "genesis": {
+    "enabled": true,
+    "energy_mode": "motif",
+    "history": [
+      -37.0,
+      -37.0,
+      -36.0,
+      -36.0,
+      -35.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -37.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -36.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -35.0,
+      -34.0,
+      -34.0,
+      -34.0,
+      -33.0,
+      -33.0,
+      -33.0,
+      -33.0,
+      -33.0,
+      -33.0,
+      -33.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -32.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -30.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -29.0,
+      -27.0,
+      -27.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -25.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -24.0,
+      -26.0,
+      -27.0,
+      -27.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      -26.0,
+      "..."
+    ]
+  },
+  "artifacts": {
+    "spacetime_png": "runs/pf0.10_seed5_spacetime.png",
+    "geodesics_png": "runs/pf0.10_seed5_geodesics.png"
+  }
+}

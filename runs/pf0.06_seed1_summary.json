@@ -1,0 +1,1232 @@
+{
+  "graph_type": "layered",
+  "N": 500,
+  "E": 1212,
+  "rule": "threshold",
+  "k": 2,
+  "scdc_loss": 0.0,
+  "spectral_gap_sym": 0.17087255075184205,
+  "light_cones": [
+    {
+      "source": 471,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 233,
+      "volumes": [
+        1,
+        4,
+        7,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.5414505526393267,
+      "r2_exp": 0.3750000000000009,
+      "eff_dim": 0.141927111178603
+    },
+    {
+      "source": 17,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 474,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 410,
+      "volumes": [
+        1,
+        2,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.5414505526393263,
+      "r2_exp": 0.3749999999999998,
+      "eff_dim": 0.28848325817600234
+    },
+    {
+      "source": 71,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 373,
+      "volumes": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.5414505526393264,
+      "r2_exp": 0.375,
+      "eff_dim": 0.16246534574337015
+    },
+    {
+      "source": 252,
+      "volumes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        15
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 0.9492928090335822,
+      "r2_exp": 0.956453973361544,
+      "eff_dim": 1.0609446586303488
+    }
+  ],
+  "curvature": {
+    "mean_kappa_node": -0.3145,
+    "var_kappa_node": 0.6819091944444444,
+    "mean_rho": -0.344,
+    "var_rho": 0.6776639999999999
+  },
+  "geodesic_overlap": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "lensing": {
+    "n_paths": 25,
+    "mean_min_dist": 0.12,
+    "mean_mean_dist": 0.769612332112332
+  },
+  "pockets": {
+    "found": true,
+    "best_size": 55,
+    "time_series": [
+      {
+        "t": 0,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 1,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 2,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 3,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 4,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 5,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 6,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 7,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 8,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 9,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 10,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 11,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 12,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 13,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 14,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 15,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 16,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 17,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 18,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 19,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 20,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 21,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 22,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 23,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 24,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 25,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 26,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 27,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 28,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 29,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 30,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 31,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 32,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 33,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 34,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 35,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 36,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 37,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 38,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 39,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 40,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 41,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 42,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 43,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 44,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 45,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 46,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 47,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 48,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 49,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 50,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 51,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 52,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 53,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 54,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 55,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 56,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 57,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 58,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 59,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 60,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 61,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 62,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 63,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 64,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 65,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 66,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 67,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 68,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 69,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 70,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 71,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 72,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 73,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 74,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 75,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 76,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 77,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 78,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 79,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 80,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 81,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 82,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 83,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 84,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 85,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 86,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 87,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 88,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 89,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 90,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 91,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 92,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 93,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 94,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 95,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 96,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 97,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 98,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 99,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 100,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 101,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 102,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 103,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 104,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 105,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 106,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 107,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 108,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 109,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 110,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 111,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 112,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 113,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 114,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 115,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 116,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 117,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 118,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 119,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      },
+      {
+        "t": 120,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 55
+      }
+    ],
+    "knot_nodes": [
+      121,
+      319,
+      13,
+      134,
+      70,
+      364,
+      227,
+      462,
+      42,
+      208,
+      460,
+      246,
+      426,
+      400,
+      16,
+      408,
+      152,
+      202,
+      127,
+      273
+    ],
+    "matter_scc_size": 36,
+    "graph_with_matter_edges": 1212
+  },
+  "genesis": {
+    "enabled": true,
+    "energy_mode": "motif",
+    "history": [
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -8.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -5.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      -3.0,
+      "..."
+    ]
+  },
+  "artifacts": {
+    "spacetime_png": "runs/pf0.06_seed1_spacetime.png",
+    "geodesics_png": "runs/pf0.06_seed1_geodesics.png"
+  }
+}

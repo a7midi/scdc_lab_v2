@@ -1,0 +1,1232 @@
+{
+  "graph_type": "layered",
+  "N": 500,
+  "E": 1472,
+  "rule": "threshold",
+  "k": 2,
+  "scdc_loss": 0.004,
+  "spectral_gap_sym": 0.1484488020756698,
+  "light_cones": [
+    {
+      "source": 96,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 357,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 409,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 74,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 73,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 34,
+      "volumes": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": -4.0835119587245763e-16
+    },
+    {
+      "source": 239,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    },
+    {
+      "source": 328,
+      "volumes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "t_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "growth_model": "polynomial",
+      "r2_poly": 1.0,
+      "r2_exp": 1.0,
+      "eff_dim": 0.0
+    }
+  ],
+  "curvature": {
+    "mean_kappa_node": 5.2580799693408276,
+    "var_kappa_node": 242.32317966511846,
+    "mean_rho": 0.10679611650485436,
+    "var_rho": 8.440050900179093
+  },
+  "geodesic_overlap": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "lensing": {
+    "n_paths": 25,
+    "mean_min_dist": 0.04,
+    "mean_mean_dist": 0.4997142857142858
+  },
+  "pockets": {
+    "found": true,
+    "best_size": 271,
+    "time_series": [
+      {
+        "t": 0,
+        "n_active": 20,
+        "n_pockets": 1,
+        "largest_pocket": 266
+      },
+      {
+        "t": 1,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 2,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 3,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 4,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 5,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 6,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 7,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 8,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 9,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 10,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 11,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 12,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 13,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 14,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 15,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 16,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 17,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 18,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 19,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 20,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 21,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 22,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 23,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 24,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 25,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 26,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 27,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 28,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 29,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 30,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 31,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 32,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 33,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 34,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 35,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 36,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 37,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 38,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 39,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 40,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 41,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 42,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 43,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 44,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 45,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 46,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 47,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 48,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 49,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 50,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 51,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 52,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 53,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 54,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 55,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 56,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 57,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 58,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 59,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 60,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 61,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 62,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 63,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 64,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 65,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 66,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 67,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 68,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 69,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 70,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 71,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 72,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 73,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 74,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 75,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 76,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 77,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 78,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 79,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 80,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 81,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 82,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 83,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 84,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 85,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 86,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 87,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 88,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 89,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 90,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 91,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 92,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 93,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 94,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 95,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 96,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 97,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 98,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 99,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 100,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 101,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 102,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 103,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 104,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 105,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 106,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 107,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 108,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 109,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 110,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 111,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 112,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 113,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 114,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 115,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 116,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 117,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 118,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 119,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      },
+      {
+        "t": 120,
+        "n_active": 23,
+        "n_pockets": 1,
+        "largest_pocket": 271
+      }
+    ],
+    "knot_nodes": [
+      390,
+      389,
+      87,
+      213,
+      114,
+      236,
+      41,
+      131,
+      163,
+      306,
+      343,
+      86,
+      16,
+      56,
+      365,
+      423,
+      19,
+      79,
+      284,
+      46
+    ],
+    "matter_scc_size": 131,
+    "graph_with_matter_edges": 1472
+  },
+  "genesis": {
+    "enabled": true,
+    "energy_mode": "motif",
+    "history": [
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -56.0,
+      -56.0,
+      -56.0,
+      -56.0,
+      -56.0,
+      -56.0,
+      -58.0,
+      -58.0,
+      -58.0,
+      -58.0,
+      -58.0,
+      -58.0,
+      -58.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -57.0,
+      -56.0,
+      -56.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -54.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -55.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -54.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      -51.0,
+      "..."
+    ]
+  },
+  "artifacts": {
+    "spacetime_png": "runs/pf0.10_seed3_spacetime.png",
+    "geodesics_png": "runs/pf0.10_seed3_geodesics.png"
+  }
+}
